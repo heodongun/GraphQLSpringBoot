@@ -1,0 +1,6 @@
+graphql:
+  playground:
+    enabled: true
+    path: /graphql
+    title: "My GraphQL Playground"
+    subscriptionEnabled: true

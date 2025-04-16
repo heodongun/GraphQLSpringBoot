@@ -1,5 +1,11 @@
 type Query {
-    hello: String
-    name: String
+    ping: String
+    user: [User]
 }
 
+
+type User{
+    id:String
+    name:String
+    age:Int
+}
